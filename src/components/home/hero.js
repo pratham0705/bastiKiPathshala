@@ -51,7 +51,7 @@ const Hero = () => {
         }}
       />
       
-      {/* Text overlay */}
+      
       <div style={{
         position: 'absolute',
         top: '0',
@@ -61,7 +61,7 @@ const Hero = () => {
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
-        backgroundColor: 'rgba(0,0,0,0.4)', // Semi-dark overlay
+        backgroundColor: 'rgba(0,0,0,0.4)', 
         color: 'white',
         textAlign: 'center'
       }}>

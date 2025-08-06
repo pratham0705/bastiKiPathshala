@@ -3,7 +3,7 @@ import React from 'react';
 function Hero() {
   return (
     <div>
-      {/* Full-screen hero image with "About Us" overlay */}
+      
       <div style={{
         position: 'relative',
         height: '100vh',
@@ -38,10 +38,9 @@ function Hero() {
         </div>
       </div>
 
-      {/* "We Work Together" section with navbar background */}
       <div style={{
         padding: '4rem 2rem',
-        backgroundColor: '#fff8f0' // Same as navbar
+        backgroundColor: '#fff8f0' 
       }}>
         <div className="container">
           <h2 style={{

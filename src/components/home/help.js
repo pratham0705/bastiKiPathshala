@@ -31,19 +31,21 @@ const Help = () => {
             Join as a volunteer or intern and create meaningful change
           </p>
           
-          <a 
-            href="/volunteer"
+          <Link
+            to="/volunteer"
             className="btn btn-primary px-4 py-2"
             style={{
               borderRadius: '6px',
               fontWeight: '500',
               backgroundColor: '#4ecdc4',
               borderColor: '#4ecdc4',
-              fontSize: '1rem'
+              fontSize: '1rem',
+              textDecoration: 'none',
+              color: 'white' 
             }}
           >
-            Join Our Team
-          </a>
+          Join Our Team
+          </Link>
           
           <div className="mt-3 text-muted" style={{ fontSize: '0.9rem' }}>
             <i className="fas fa-user-friends me-1"></i> 500+ volunteers already making a difference

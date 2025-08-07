@@ -66,16 +66,16 @@ const Footer = () => {
                 </Link>
                 </li>
                 <li className="mb-2">
-                  <a href="/" className="text-decoration-none text-muted">
+                  <Link to="/" className="text-decoration-none text-muted">
                     <i className="bi bi-gift me-2"></i>
                     Donate
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/" className="text-decoration-none text-muted">
+                  <Link to="/" className="text-decoration-none text-muted">
                     <i className="bi bi-images me-2"></i>
                     Gallery
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

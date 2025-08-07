@@ -1,3 +1,6 @@
+import React from 'react';
+import {Link} from 'react-router-dom';
+
 const Footer = () => {
     return (
       <footer className="bg-light pt-4 pb-3 border-top mt-5">

@@ -54,19 +54,22 @@ const Footer = () => {
               </h5>
               <ul className="list-unstyled text-muted small">
                 <li className="mb-2">
-                  <a href="/volunteer" className="text-decoration-none text-muted">
-                    <i className="bi bi-people me-2"></i>
-                    Volunteer
-                  </a>
+                <Link 
+                to="/volunteer" 
+                className="text-decoration-none text-muted"
+                >
+                <i className="bi bi-people me-2"></i>
+                Volunteer
+                </Link>
                 </li>
                 <li className="mb-2">
-                  <a href="/donate" className="text-decoration-none text-muted">
+                  <a href="/" className="text-decoration-none text-muted">
                     <i className="bi bi-gift me-2"></i>
                     Donate
                   </a>
                 </li>
                 <li>
-                  <a href="/gallery" className="text-decoration-none text-muted">
+                  <a href="/" className="text-decoration-none text-muted">
                     <i className="bi bi-images me-2"></i>
                     Gallery
                   </a>
